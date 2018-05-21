@@ -1,0 +1,48 @@
+@font-face {
+  font-family: arcade;
+  src: url(ARCADECLASSIC.TTF);
+}
+
+@font-face {
+  font-family: manaspace;
+  src: url(manaspc.ttf);
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(65,65,130);
+  color: rgb(248,209, 99);
+  font-size: 16px;
+  font-family: manaspace;
+  text-align: center;
+}
+
+body {
+  padding-top: 20px;
+}
+
+h1 {
+  font-family: arcade;
+}
+
+h3, h4 {
+  color: white;
+}
+
+a:hover {
+  color: rgb(255, 95, 95);
+}
+
+ul {
+  margin-top: 90px;
+  list-style-type: none;
+}
+
+li {
+  margin: 40px 0 40px 0;
+}
+
+a {
+  color: white;
+}
