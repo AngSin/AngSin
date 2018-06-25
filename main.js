@@ -2,8 +2,6 @@ const enterPress = document.getElementById("enter");
 const links = document.getElementsByTagName("a");
 const listItems = document.getElementsByTagName("li");
 
-let visited = false;
-
 let buzzAudio = document.getElementById("buzz-audio"); 
 buzzAudio.volume = 0.4;
 
@@ -27,10 +25,6 @@ window.addEventListener("keydown", (e) => {
   }
   if (e.code === "Space") {
     e.preventDefault();
-    if (!visited) {
-      visited = true;
-      window.open(links[1].href);
-    }
     const linkIndex = Math.floor(Math.random() * links.length);
     window.open(links[linkIndex].href);
   }
